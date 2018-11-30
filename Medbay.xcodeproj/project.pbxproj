@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461F57CF21B1496100B1C065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57CE21B1496100B1C065 /* AppDelegate.swift */; };
+		461F57D121B1496100B1C065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57D021B1496100B1C065 /* ViewController.swift */; };
+		461F57D421B1496100B1C065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F57D221B1496100B1C065 /* Main.storyboard */; };
+		461F57D621B1496300B1C065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F57D521B1496300B1C065 /* Assets.xcassets */; };
+		461F57D921B1496300B1C065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F57D721B1496300B1C065 /* LaunchScreen.storyboard */; };
+		461F57E421B1496300B1C065 /* MedbayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57E321B1496300B1C065 /* MedbayTests.swift */; };
+		461F57EF21B1496300B1C065 /* MedbayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57EE21B1496300B1C065 /* MedbayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461F57E021B1496300B1C065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461F57C321B1496100B1C065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461F57CA21B1496100B1C065;
+			remoteInfo = Medbay;
+		};
+		461F57EB21B1496300B1C065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461F57C321B1496100B1C065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461F57CA21B1496100B1C065;
+			remoteInfo = Medbay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461F57CB21B1496100B1C065 /* Medbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medbay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F57CE21B1496100B1C065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		461F57D021B1496100B1C065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		461F57D321B1496100B1C065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461F57D521B1496300B1C065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461F57D821B1496300B1C065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461F57DA21B1496300B1C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F57DF21B1496300B1C065 /* MedbayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedbayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F57E321B1496300B1C065 /* MedbayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbayTests.swift; sourceTree = "<group>"; };
+		461F57E521B1496300B1C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F57EA21B1496300B1C065 /* MedbayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedbayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461F57EE21B1496300B1C065 /* MedbayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbayUITests.swift; sourceTree = "<group>"; };
+		461F57F021B1496300B1C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461F57C821B1496100B1C065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F57DC21B1496300B1C065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F57E721B1496300B1C065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461F57C221B1496100B1C065 = {
+			isa = PBXGroup;
+			children = (
+				461F57CD21B1496100B1C065 /* Medbay */,
+				461F57E221B1496300B1C065 /* MedbayTests */,
+				461F57ED21B1496300B1C065 /* MedbayUITests */,
+				461F57CC21B1496100B1C065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461F57CC21B1496100B1C065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461F57CB21B1496100B1C065 /* Medbay.app */,
+				461F57DF21B1496300B1C065 /* MedbayTests.xctest */,
+				461F57EA21B1496300B1C065 /* MedbayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461F57CD21B1496100B1C065 /* Medbay */ = {
+			isa = PBXGroup;
+			children = (
+				461F57CE21B1496100B1C065 /* AppDelegate.swift */,
+				461F57D021B1496100B1C065 /* ViewController.swift */,
+				461F57FD21B149C300B1C065 /* Models */,
+				461F57FE21B149E600B1C065 /* View Models */,
+				461F57FF21B149FD00B1C065 /* Views */,
+				461F57FC21B149AA00B1C065 /* Storyboard */,
+			);
+			path = Medbay;
+			sourceTree = "<group>";
+		};
+		461F57E221B1496300B1C065 /* MedbayTests */ = {
+			isa = PBXGroup;
+			children = (
+				461F57E321B1496300B1C065 /* MedbayTests.swift */,
+				461F57E521B1496300B1C065 /* Info.plist */,
+			);
+			path = MedbayTests;
+			sourceTree = "<group>";
+		};
+		461F57ED21B1496300B1C065 /* MedbayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461F57EE21B1496300B1C065 /* MedbayUITests.swift */,
+				461F57F021B1496300B1C065 /* Info.plist */,
+			);
+			path = MedbayUITests;
+			sourceTree = "<group>";
+		};
+		461F57FC21B149AA00B1C065 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				461F57D721B1496300B1C065 /* LaunchScreen.storyboard */,
+				461F57D221B1496100B1C065 /* Main.storyboard */,
+				461F57D521B1496300B1C065 /* Assets.xcassets */,
+				461F57DA21B1496300B1C065 /* Info.plist */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		461F57FD21B149C300B1C065 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		461F57FE21B149E600B1C065 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		461F57FF21B149FD00B1C065 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461F57CA21B1496100B1C065 /* Medbay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461F57F321B1496300B1C065 /* Build configuration list for PBXNativeTarget "Medbay" */;
+			buildPhases = (
+				461F57C721B1496100B1C065 /* Sources */,
+				461F57C821B1496100B1C065 /* Frameworks */,
+				461F57C921B1496100B1C065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medbay;
+			productName = Medbay;
+			productReference = 461F57CB21B1496100B1C065 /* Medbay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461F57DE21B1496300B1C065 /* MedbayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461F57F621B1496300B1C065 /* Build configuration list for PBXNativeTarget "MedbayTests" */;
+			buildPhases = (
+				461F57DB21B1496300B1C065 /* Sources */,
+				461F57DC21B1496300B1C065 /* Frameworks */,
+				461F57DD21B1496300B1C065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461F57E121B1496300B1C065 /* PBXTargetDependency */,
+			);
+			name = MedbayTests;
+			productName = MedbayTests;
+			productReference = 461F57DF21B1496300B1C065 /* MedbayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461F57E921B1496300B1C065 /* MedbayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461F57F921B1496300B1C065 /* Build configuration list for PBXNativeTarget "MedbayUITests" */;
+			buildPhases = (
+				461F57E621B1496300B1C065 /* Sources */,
+				461F57E721B1496300B1C065 /* Frameworks */,
+				461F57E821B1496300B1C065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461F57EC21B1496300B1C065 /* PBXTargetDependency */,
+			);
+			name = MedbayUITests;
+			productName = MedbayUITests;
+			productReference = 461F57EA21B1496300B1C065 /* MedbayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461F57C321B1496100B1C065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wiljay;
+				TargetAttributes = {
+					461F57CA21B1496100B1C065 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					461F57DE21B1496300B1C065 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 461F57CA21B1496100B1C065;
+					};
+					461F57E921B1496300B1C065 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 461F57CA21B1496100B1C065;
+					};
+				};
+			};
+			buildConfigurationList = 461F57C621B1496100B1C065 /* Build configuration list for PBXProject "Medbay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461F57C221B1496100B1C065;
+			productRefGroup = 461F57CC21B1496100B1C065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461F57CA21B1496100B1C065 /* Medbay */,
+				461F57DE21B1496300B1C065 /* MedbayTests */,
+				461F57E921B1496300B1C065 /* MedbayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461F57C921B1496100B1C065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F57D921B1496300B1C065 /* LaunchScreen.storyboard in Resources */,
+				461F57D621B1496300B1C065 /* Assets.xcassets in Resources */,
+				461F57D421B1496100B1C065 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F57DD21B1496300B1C065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F57E821B1496300B1C065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461F57C721B1496100B1C065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F57D121B1496100B1C065 /* ViewController.swift in Sources */,
+				461F57CF21B1496100B1C065 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F57DB21B1496300B1C065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F57E421B1496300B1C065 /* MedbayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F57E621B1496300B1C065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F57EF21B1496300B1C065 /* MedbayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461F57E121B1496300B1C065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461F57CA21B1496100B1C065 /* Medbay */;
+			targetProxy = 461F57E021B1496300B1C065 /* PBXContainerItemProxy */;
+		};
+		461F57EC21B1496300B1C065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461F57CA21B1496100B1C065 /* Medbay */;
+			targetProxy = 461F57EB21B1496300B1C065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		461F57D221B1496100B1C065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461F57D321B1496100B1C065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461F57D721B1496300B1C065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461F57D821B1496300B1C065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461F57F121B1496300B1C065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		461F57F221B1496300B1C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461F57F421B1496300B1C065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQYWQB75M5;
+				INFOPLIST_FILE = Medbay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiljay.Medbay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461F57F521B1496300B1C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQYWQB75M5;
+				INFOPLIST_FILE = Medbay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiljay.Medbay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		461F57F721B1496300B1C065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQYWQB75M5;
+				INFOPLIST_FILE = MedbayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiljay.MedbayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medbay.app/Medbay";
+			};
+			name = Debug;
+		};
+		461F57F821B1496300B1C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQYWQB75M5;
+				INFOPLIST_FILE = MedbayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiljay.MedbayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medbay.app/Medbay";
+			};
+			name = Release;
+		};
+		461F57FA21B1496300B1C065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQYWQB75M5;
+				INFOPLIST_FILE = MedbayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiljay.MedbayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medbay;
+			};
+			name = Debug;
+		};
+		461F57FB21B1496300B1C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQYWQB75M5;
+				INFOPLIST_FILE = MedbayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiljay.MedbayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medbay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461F57C621B1496100B1C065 /* Build configuration list for PBXProject "Medbay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F57F121B1496300B1C065 /* Debug */,
+				461F57F221B1496300B1C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461F57F321B1496300B1C065 /* Build configuration list for PBXNativeTarget "Medbay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F57F421B1496300B1C065 /* Debug */,
+				461F57F521B1496300B1C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461F57F621B1496300B1C065 /* Build configuration list for PBXNativeTarget "MedbayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F57F721B1496300B1C065 /* Debug */,
+				461F57F821B1496300B1C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461F57F921B1496300B1C065 /* Build configuration list for PBXNativeTarget "MedbayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461F57FA21B1496300B1C065 /* Debug */,
+				461F57FB21B1496300B1C065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461F57C321B1496100B1C065 /* Project object */;
+}
