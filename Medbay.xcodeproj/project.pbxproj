@@ -16,6 +16,11 @@
 		461F57EF21B1496300B1C065 /* MedbayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57EE21B1496300B1C065 /* MedbayUITests.swift */; };
 		461F580121B14E4400B1C065 /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580021B14E4400B1C065 /* Camper.swift */; };
 		461F580221B14F8800B1C065 /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580021B14E4400B1C065 /* Camper.swift */; };
+		461F580421B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */; };
+		461F580521B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */; };
+		461F580721B155E300B1C065 /* CaperListTableViewCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */; };
+		461F580921B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */; };
+		461F580A21B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,9 @@
 		461F57EE21B1496300B1C065 /* MedbayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbayUITests.swift; sourceTree = "<group>"; };
 		461F57F021B1496300B1C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F580021B14E4400B1C065 /* Camper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camper.swift; sourceTree = "<group>"; };
+		461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperListTableViewCell.swift; sourceTree = "<group>"; };
+		461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaperListTableViewCellModelTests.swift; sourceTree = "<group>"; };
+		461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperListTableViewCellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				461F57E321B1496300B1C065 /* MedbayTests.swift */,
+				461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */,
 				461F57E521B1496300B1C065 /* Info.plist */,
 			);
 			path = MedbayTests;
@@ -150,6 +159,7 @@
 		461F57FE21B149E600B1C065 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -157,6 +167,7 @@
 		461F57FF21B149FD00B1C065 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461F580921B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */,
 				461F57D121B1496100B1C065 /* ViewController.swift in Sources */,
 				461F580121B14E4400B1C065 /* Camper.swift in Sources */,
 				461F57CF21B1496100B1C065 /* AppDelegate.swift in Sources */,
+				461F580421B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461F580A21B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */,
 				461F57E421B1496300B1C065 /* MedbayTests.swift in Sources */,
+				461F580521B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */,
 				461F580221B14F8800B1C065 /* Camper.swift in Sources */,
+				461F580721B155E300B1C065 /* CaperListTableViewCellModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
