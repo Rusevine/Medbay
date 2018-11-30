@@ -14,6 +14,8 @@
 		461F57D921B1496300B1C065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F57D721B1496300B1C065 /* LaunchScreen.storyboard */; };
 		461F57E421B1496300B1C065 /* MedbayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57E321B1496300B1C065 /* MedbayTests.swift */; };
 		461F57EF21B1496300B1C065 /* MedbayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F57EE21B1496300B1C065 /* MedbayUITests.swift */; };
+		461F580121B14E4400B1C065 /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580021B14E4400B1C065 /* Camper.swift */; };
+		461F580221B14F8800B1C065 /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580021B14E4400B1C065 /* Camper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		461F57EA21B1496300B1C065 /* MedbayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedbayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F57EE21B1496300B1C065 /* MedbayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbayUITests.swift; sourceTree = "<group>"; };
 		461F57F021B1496300B1C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461F580021B14E4400B1C065 /* Camper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,7 @@
 		461F57FD21B149C300B1C065 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				461F580021B14E4400B1C065 /* Camper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -289,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461F57D121B1496100B1C065 /* ViewController.swift in Sources */,
+				461F580121B14E4400B1C065 /* Camper.swift in Sources */,
 				461F57CF21B1496100B1C065 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461F57E421B1496300B1C065 /* MedbayTests.swift in Sources */,
+				461F580221B14F8800B1C065 /* Camper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQYWQB75M5;
-				INFOPLIST_FILE = Medbay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Medbay/Storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQYWQB75M5;
-				INFOPLIST_FILE = Medbay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Medbay/Storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
