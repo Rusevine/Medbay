@@ -27,7 +27,7 @@ class CaperListTableViewCellModelTests: XCTestCase {
         camper = nil
     }
     
-    func testAttributes() {
+    func testCamperTableViewCellAttributes() {
         XCTAssertNotNil(cell.camper, "Camper is nil in CamperListTableViewCellModel")
     }
 
