@@ -43,5 +43,16 @@ class MedbayTests: XCTestCase {
         XCTAssertEqual(medication.notes, "do not administer if sick")
         XCTAssertEqual(medication.administered, false)
     }
+    
+    func testEmployeeAttributes() {
+        let attributes: [String:Any] = ["id":"N1", "name":"Nurse Joy", "email":"nurse@gmail.com","password":"imanurse123","admin":false]
+        
+        let employee = Employee(attributes: attributes)
+        XCTAssertEqual(employee.id, "N1")
+        XCTAssertEqual(employee.name, "Nurse Joy")
+        XCTAssertEqual(employee.email, "nurse@gmail.com")
+        XCTAssertEqual(employee.password, "imanurse123")
+        XCTAssertEqual(employee.admin, false)
+    }
 
 }

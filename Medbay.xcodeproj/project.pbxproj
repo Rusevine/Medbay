@@ -22,6 +22,7 @@
 		461F580921B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */; };
 		461F580A21B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */; };
 		461F584621B486E800B1C065 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F584521B486E800B1C065 /* Medication.swift */; };
+		461F585621BBF91900B1C065 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F585521BBF91900B1C065 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaperListTableViewCellModelTests.swift; sourceTree = "<group>"; };
 		461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperListTableViewCellModel.swift; sourceTree = "<group>"; };
 		461F584521B486E800B1C065 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		461F585521BBF91900B1C065 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				461F580021B14E4400B1C065 /* Camper.swift */,
+				461F585521BBF91900B1C065 /* Employee.swift */,
 				461F584521B486E800B1C065 /* Medication.swift */,
 			);
 			path = Models;
@@ -309,6 +312,7 @@
 				461F580921B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */,
 				461F57D121B1496100B1C065 /* ViewController.swift in Sources */,
 				461F580121B14E4400B1C065 /* Camper.swift in Sources */,
+				461F585621BBF91900B1C065 /* Employee.swift in Sources */,
 				461F57CF21B1496100B1C065 /* AppDelegate.swift in Sources */,
 				461F584621B486E800B1C065 /* Medication.swift in Sources */,
 				461F580421B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */,
