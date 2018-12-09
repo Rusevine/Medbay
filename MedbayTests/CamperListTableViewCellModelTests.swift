@@ -8,6 +8,7 @@
 
 import XCTest
 
+
 class CamperListTableViewCellModelTests: XCTestCase {
     
     var cell: CamperListTableViewCellModel!

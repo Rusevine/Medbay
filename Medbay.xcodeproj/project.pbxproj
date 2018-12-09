@@ -18,11 +18,14 @@
 		461F580221B14F8800B1C065 /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580021B14E4400B1C065 /* Camper.swift */; };
 		461F580421B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */; };
 		461F580521B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */; };
-		461F580721B155E300B1C065 /* CaperListTableViewCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */; };
+		461F580721B155E300B1C065 /* CamperListTableViewCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580621B155E300B1C065 /* CamperListTableViewCellModelTests.swift */; };
 		461F580921B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */; };
 		461F580A21B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */; };
 		461F584621B486E800B1C065 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F584521B486E800B1C065 /* Medication.swift */; };
 		461F585621BBF91900B1C065 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F585521BBF91900B1C065 /* Employee.swift */; };
+		461F585C21BC115E00B1C065 /* MedicationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F585A21BC115E00B1C065 /* MedicationViewModelTests.swift */; };
+		461F585E21BC6EA500B1C065 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F585521BBF91900B1C065 /* Employee.swift */; };
+		461F585F21BC6EA900B1C065 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F584521B486E800B1C065 /* Medication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +61,11 @@
 		461F57F021B1496300B1C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F580021B14E4400B1C065 /* Camper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camper.swift; sourceTree = "<group>"; };
 		461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperListTableViewCell.swift; sourceTree = "<group>"; };
-		461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaperListTableViewCellModelTests.swift; sourceTree = "<group>"; };
+		461F580621B155E300B1C065 /* CamperListTableViewCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperListTableViewCellModelTests.swift; sourceTree = "<group>"; };
 		461F580821B1574800B1C065 /* CamperListTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamperListTableViewCellModel.swift; sourceTree = "<group>"; };
 		461F584521B486E800B1C065 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
 		461F585521BBF91900B1C065 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		461F585A21BC115E00B1C065 /* MedicationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				461F57E321B1496300B1C065 /* MedbayTests.swift */,
-				461F580621B155E300B1C065 /* CaperListTableViewCellModelTests.swift */,
+				461F585A21BC115E00B1C065 /* MedicationViewModelTests.swift */,
+				461F580621B155E300B1C065 /* CamperListTableViewCellModelTests.swift */,
 				461F57E521B1496300B1C065 /* Info.plist */,
 			);
 			path = MedbayTests;
@@ -323,11 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461F585F21BC6EA900B1C065 /* Medication.swift in Sources */,
 				461F580A21B1574800B1C065 /* CamperListTableViewCellModel.swift in Sources */,
+				461F585C21BC115E00B1C065 /* MedicationViewModelTests.swift in Sources */,
 				461F57E421B1496300B1C065 /* MedbayTests.swift in Sources */,
+				461F585E21BC6EA500B1C065 /* Employee.swift in Sources */,
 				461F580521B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */,
 				461F580221B14F8800B1C065 /* Camper.swift in Sources */,
-				461F580721B155E300B1C065 /* CaperListTableViewCellModelTests.swift in Sources */,
+				461F580721B155E300B1C065 /* CamperListTableViewCellModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
