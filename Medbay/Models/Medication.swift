@@ -11,7 +11,7 @@ import UIKit
 class Medication: NSObject {
     var id: String?
     var camperID: String?
-    var medication: String?
+    var name: String?
     var dosage: String?
     var date: String?
     var time: String?
@@ -21,7 +21,7 @@ class Medication: NSObject {
     init(attributes: [String:Any]) {
         self.id = attributes["id"] as? String
         self.camperID = attributes["camperID"] as? String
-        self.medication = attributes["medication"] as? String
+        self.name = attributes["name"] as? String
         self.dosage = attributes["dosage"] as? String
         self.date = attributes["date"] as? String
         self.time = attributes["time"] as? String

@@ -31,12 +31,12 @@ class MedbayTests: XCTestCase {
     }
     
     func testMedicationAttributes() {
-        let attributes: [String:Any] = ["id": "M1", "camperID": "C1", "medication": "Chemo", "dosage": "10cc", "date": "12-05-2018", "time": "18:00", "notes": "do not administer if sick", "administered": false]
+        let attributes: [String:Any] = ["id": "M1", "camperID": "C1", "name": "Chemo", "dosage": "10cc", "date": "12-05-2018", "time": "18:00", "notes": "do not administer if sick", "administered": false]
         
         let medication = Medication(attributes: attributes)
         XCTAssertEqual(medication.id, "M1")
         XCTAssertEqual(medication.camperID, "C1")
-        XCTAssertEqual(medication.medication, "Chemo")
+        XCTAssertEqual(medication.name, "Chemo")
         XCTAssertEqual(medication.dosage, "10cc")
         XCTAssertEqual(medication.date, "12-05-2018")
         XCTAssertEqual(medication.time, "18:00")
