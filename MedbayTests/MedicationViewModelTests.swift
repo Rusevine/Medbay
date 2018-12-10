@@ -18,14 +18,31 @@ class MedicationViewModelTests: XCTestCase {
 
 
     override func setUp() {
+        
         camper = Camper(attributes: ["id": "C1", "name": "John Doe", "primaryDiagnosis": "Cough", "notes": "N/A", "otcPermitted": false, "allergies": "Peanuts, Bugs"])
+        
         employee = Employee(attributes: ["id":"N1", "name":"Nurse Joy", "email":"nurse@gmail.com","password":"imanurse123","admin":false])
-        medication = Medication(attributes: <#T##[String : Any]#>)
+        
+        medication = Medication(attributes: ["id": "M1", "camperID": "C1", "medication": "Chemo", "dosage": "10cc", "date": "12-05-2018", "time": "18:00", "notes": "do not administer if sick", "administered": false])
         
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+    }
+    
+    func testMedicationViewDependencies() {
+        
+        let vc = MedicationDetailViewModel()
+        
+        vc.camper = camper
+        vc.employee = employee
+        vc.medication = medication
+        
+        XCTAssertNotNil(vc.camper)
+        XCTAssertNotNil(vc.employee)
+        XCTAssertNotNil(vc.medication)
+        
     }
 
 
