@@ -6,7 +6,7 @@
 //  Copyright © 2018 wiljay. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class MedicationDetailViewModel: NSObject {
     
@@ -72,6 +72,6 @@ class MedicationDetailViewModel: NSObject {
         }
     }
     
-   // medication = Medication(attributes: ["id": "M1", "camperID": "C1", "medication": "Chemo", "dosage": "10cc", "date": "12-05-2018", "time": "18:00", "notes": "do not administer if sick", "administered": false])
     
+
 }

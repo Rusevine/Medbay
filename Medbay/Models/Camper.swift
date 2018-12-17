@@ -6,7 +6,7 @@
 //  Copyright © 2018 wiljay. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class Camper: NSObject {
     

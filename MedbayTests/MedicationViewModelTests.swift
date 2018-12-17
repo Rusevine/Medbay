@@ -27,7 +27,6 @@ class MedicationViewModelTests: XCTestCase {
         medication = Medication(attributes: ["id": "M1", "camperID": "C1", "name": "Chemo", "dosage": "10cc", "date": "12-05-2018", "time": "18:00", "notes": "do not administer if sick", "administered": false])
         
         sut = MedicationDetailViewModel(camper: camper!, employee: employee!, medication: medication!)
-       
         
     }
 

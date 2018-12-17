@@ -28,6 +28,7 @@
 		461F585F21BC6EA900B1C065 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F584521B486E800B1C065 /* Medication.swift */; };
 		461F586121BE122A00B1C065 /* MedicationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F586021BE122A00B1C065 /* MedicationDetailViewModel.swift */; };
 		461F586221BE12FB00B1C065 /* MedicationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F586021BE122A00B1C065 /* MedicationDetailViewModel.swift */; };
+		46DC3EB021C8240C002A5DDF /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC3EAF21C8240C002A5DDF /* MedicationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		461F585521BBF91900B1C065 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		461F585A21BC115E00B1C065 /* MedicationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewModelTests.swift; sourceTree = "<group>"; };
 		461F586021BE122A00B1C065 /* MedicationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewModel.swift; sourceTree = "<group>"; };
+		46DC3EAF21C8240C002A5DDF /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				461F580321B155AC00B1C065 /* CamperListTableViewCell.swift */,
+				46DC3EAF21C8240C002A5DDF /* MedicationDetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				461F585621BBF91900B1C065 /* Employee.swift in Sources */,
 				461F57CF21B1496100B1C065 /* AppDelegate.swift in Sources */,
 				461F584621B486E800B1C065 /* Medication.swift in Sources */,
+				46DC3EB021C8240C002A5DDF /* MedicationDetailViewController.swift in Sources */,
 				461F586121BE122A00B1C065 /* MedicationDetailViewModel.swift in Sources */,
 				461F580421B155AC00B1C065 /* CamperListTableViewCell.swift in Sources */,
 			);
