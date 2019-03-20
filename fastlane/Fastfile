@@ -31,7 +31,7 @@ platform :ios do
   end
 
   lane :tests do
-    match(type: "development", readonly: is_ci)
+    match(type: "development", readonly: is_ci, app_identifier: "wiljay.Medbay")
     run_tests(scheme: "MedbayScheme")
   end
 
