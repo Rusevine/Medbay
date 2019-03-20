@@ -38,11 +38,13 @@ platform :ios do
     configuration = options[:configuration]
     export_method = options[:export_method]
     disable_automatic_code_signing(path: "Medbay.xcodeproj")
+    match(type: "development", readonly: is_ci)
     gym(scheme: scheme, configuration: configuration, export_method:export_method, output_name:"Medbay.ipa")
     enable_automatic_code_signing(path: "Medbay.xcodeproj")
   end
 
   lane :tests do
+    match(type: "development", readonly: is_ci)
     run_tests(scheme: "MedbayScheme")
   end
 
