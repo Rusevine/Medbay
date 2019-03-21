@@ -64,7 +64,7 @@ class MedbayTests: XCTestCase {
     }
 
     func testMore() {
-        
-    }
+
+    
 
 }
