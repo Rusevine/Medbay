@@ -55,16 +55,4 @@ class MedbayTests: XCTestCase {
         XCTAssertEqual(employee.admin, false)
     }
 
-    func testPull() {
-        
-    }
-
-    func addMoreTest() {
-
-    }
-
-    func testMore() {
-
-    
-
 }
